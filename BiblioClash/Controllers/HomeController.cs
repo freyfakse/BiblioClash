@@ -23,6 +23,11 @@ namespace BiblioClash.Controllers
             return View();
         }
 
+        public IActionResult Tournament() 
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
